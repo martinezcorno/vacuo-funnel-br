@@ -1,0 +1,16 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1800" fill="#B71C1C"/>
+  <rect x="70" y="70" width="1060" height="1660" rx="54" fill="#C52828" stroke="#161616" stroke-width="8"/>
+  <rect x="130" y="1240" width="940" height="320" rx="34" fill="#F6EAD9"/>
+  <rect x="130" y="180" width="370" height="58" rx="29" fill="#20A4FF"/>
+  <path d="M814 333C900 333 970 403 970 489V696C970 782 900 852 814 852H605L459 978V852H386C300 852 230 782 230 696V489C230 403 300 333 386 333H814Z" fill="#161616"/>
+  <path d="M738 421C783 421 820 458 820 503V608C820 653 783 690 738 690H537L465 752V690H462C417 690 380 653 380 608V503C380 458 417 421 462 421H738Z" fill="#F6EAD9"/>
+  <circle cx="1047" cy="248" r="42" fill="#161616"/>
+  <circle cx="1047" cy="248" r="18" fill="#20A4FF"/>
+  <text x="130" y="1135" fill="#F6EAD9" font-family="Arial, sans-serif" font-size="110" font-weight="700" letter-spacing="2">QUANDO</text>
+  <text x="130" y="1248" fill="#F6EAD9" font-family="Arial, sans-serif" font-size="110" font-weight="700" letter-spacing="2">TE DEIXAM</text>
+  <text x="130" y="1361" fill="#F6EAD9" font-family="Arial, sans-serif" font-size="110" font-weight="700" letter-spacing="2">NO VÁCUO</text>
+  <text x="190" y="1345" fill="#161616" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="6">PLAYBOOK PRÁTICO</text>
+  <text x="190" y="1418" fill="#161616" font-family="Arial, sans-serif" font-size="42" font-weight="700">pra decidir sua próxima mensagem</text>
+  <text x="190" y="1496" fill="#161616" font-family="Arial, sans-serif" font-size="32" font-weight="700">sem agir no impulso</text>
+</svg>
