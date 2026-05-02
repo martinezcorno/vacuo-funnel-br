@@ -42,7 +42,7 @@ function bindScrollLinks() {
 
 function applyAssetConfig() {
   document.querySelectorAll(SELECTORS.coverImages).forEach((image) => {
-    image.src = CONFIG.coverImagePath || "assets/cover-product.svg";
+    image.src = CONFIG.coverImagePath || "assets/vacuo-cover.png";
   });
 
   const privacy = document.querySelector(SELECTORS.privacyLink);
