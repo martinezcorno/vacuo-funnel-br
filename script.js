@@ -18,7 +18,7 @@ function initMetaPixel() {
 
 function bindCheckoutLinks() {
   document.querySelectorAll(SELECTORS.checkoutLinks).forEach((link) => {
-    link.setAttribute("href", CONFIG.hotmartUrl || "https://pay.hotmart.com/PLACEHOLDER");
+    link.setAttribute("href", CONFIG.hotmartUrl || "https://pay.hotmart.com/K104704802N");
     link.addEventListener("click", () => {
       if (window.fbq) {
         window.fbq("track", "InitiateCheckout");
