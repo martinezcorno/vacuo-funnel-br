@@ -29,6 +29,32 @@
       .legal-card a { color: var(--blue); text-decoration: underline; }
       @media (max-width: 699px) { .legal-nav { align-items: flex-start; flex-direction: column; } .legal-hero { padding-top: 48px; } .legal-card { padding: 22px; border-radius: 20px; } }
     </style>
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+      fbq("init", "1514846480055818");
+      fbq("track", "PageView");
+      fbq("track", "ViewContent", {
+        content_name: "Quando Te Deixam No Vacuo",
+        content_type: "product",
+        value: 72.00,
+        currency: "BRL",
+      });
+    </script>
   </head>
   <body>
     <div class="page-noise" aria-hidden="true"></div>
