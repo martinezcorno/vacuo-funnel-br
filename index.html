@@ -19,39 +19,29 @@
     <script>
       window.PRODUCT_CONFIG = {
         hotmartUrl: "https://pay.hotmart.com/K104704802N",
-        metaPixelId: "PIXEL_ID_AQUI",
         coverImagePath: "assets/vacuo-cover.png",
         leadEndpoint: "/api/leads",
         privacyPolicyUrl: "/privacy.html",
         termsUrl: "/terms.html",
       };
     </script>
+    <!-- Meta Pixel Code -->
     <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-      fbq("init", "1514846480055818");
-      fbq("track", "PageView");
-      fbq("track", "ViewContent", {
-        content_name: "Quando Te Deixam No Vacuo",
-        content_type: "product",
-        value: 72.00,
-        currency: "BRL",
-      });
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1358248199585764');
+      fbq('track', 'PageView');
     </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1358248199585764&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
   <body>
     <div class="page-noise" aria-hidden="true"></div>
@@ -253,9 +243,6 @@
 
     <a class="sticky-mobile-cta js-checkout-link" href="https://pay.hotmart.com/K104704802N">Comprar por R$ 72,00</a>
 
-    <noscript>
-      <img height="1" width="1" style="display: none" alt="" src="https://www.facebook.com/tr?id=1514846480055818&ev=PageView&noscript=1" />
-    </noscript>
     <script src="script.js"></script>
   </body>
 </html>
