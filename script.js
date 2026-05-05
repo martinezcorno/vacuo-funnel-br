@@ -10,12 +10,6 @@ const SELECTORS = {
   formStatus: "#form-status",
 };
 
-function initMetaPixel() {
-  if (!window.fbq || !CONFIG.metaPixelId || CONFIG.metaPixelId === "PIXEL_ID_AQUI") return;
-  window.fbq("init", CONFIG.metaPixelId);
-  window.fbq("track", "PageView");
-}
-
 function bindCheckoutLinks() {
   document.querySelectorAll(SELECTORS.checkoutLinks).forEach((link) => {
     link.setAttribute("href", CONFIG.hotmartUrl || "https://pay.hotmart.com/K104704802N");
@@ -152,7 +146,6 @@ function bindLeadForm() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  initMetaPixel();
   applyAssetConfig();
   bindCheckoutLinks();
   bindScrollLinks();
